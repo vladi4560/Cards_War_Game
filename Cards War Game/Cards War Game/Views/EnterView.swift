@@ -20,7 +20,7 @@ struct EnterView: View {
                     Spacer()
                     Text(viewModel.title)
                     Spacer()
-                    Text(viewModel.errorMessage)
+                    Text(viewModel.errorMessage).foregroundColor(.red)
                     Spacer()
                     TextField("Enter you name...",text: $viewModel.name).padding(.top,50).multilineTextAlignment(.center).onSubmit {
                         viewModel.enterName(long: locationManager.location?.coordinate.longitude ?? 0.0)
