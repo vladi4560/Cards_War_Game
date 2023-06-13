@@ -56,7 +56,7 @@ class GameViewModel: ObservableObject{
                 self?.deal()
             }
             
-            if self?.turns == 3 {
+            if self?.turns == 10 {
                 self?.endGame()
                 timer.invalidate()
                 
