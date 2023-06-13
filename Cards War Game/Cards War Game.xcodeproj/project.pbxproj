@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA99ED6B2A38749100872583 /* Cards_War_GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA99ED6A2A38749100872583 /* Cards_War_GameApp.swift */; };
+		FA99ED6D2A38749100872583 /* EnterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA99ED6C2A38749100872583 /* EnterView.swift */; };
+		FA99ED732A38749100872583 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA99ED722A38749100872583 /* Preview Assets.xcassets */; };
+		FA99ED7D2A38749100872583 /* Cards_War_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA99ED7C2A38749100872583 /* Cards_War_GameTests.swift */; };
+		FA99ED872A38749100872583 /* Cards_War_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA99ED862A38749100872583 /* Cards_War_GameUITests.swift */; };
+		FA99ED892A38749100872583 /* Cards_War_GameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA99ED882A38749100872583 /* Cards_War_GameUITestsLaunchTests.swift */; };
+		FA99ED982A387DCD00872583 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA99ED972A387DCD00872583 /* GameView.swift */; };
+		FA99ED9A2A3880CE00872583 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA99ED992A3880CE00872583 /* LocationManager.swift */; };
+		FAFF312F2A38AC22002232AB /* EnterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFF312E2A38AC22002232AB /* EnterViewModel.swift */; };
+		FAFF31312A38B17C002232AB /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFF31302A38B17C002232AB /* GameOverView.swift */; };
+		FAFF31352A38C82D002232AB /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFF31342A38C82D002232AB /* GameViewModel.swift */; };
+		FAFF31372A38C842002232AB /* GameOverViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFF31362A38C842002232AB /* GameOverViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA99ED792A38749100872583 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA99ED5F2A38749000872583 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA99ED662A38749100872583;
+			remoteInfo = "Cards War Game";
+		};
+		FA99ED832A38749100872583 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA99ED5F2A38749000872583 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA99ED662A38749100872583;
+			remoteInfo = "Cards War Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA99ED672A38749100872583 /* Cards War Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cards War Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA99ED6A2A38749100872583 /* Cards_War_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards_War_GameApp.swift; sourceTree = "<group>"; };
+		FA99ED6C2A38749100872583 /* EnterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterView.swift; sourceTree = "<group>"; };
+		FA99ED702A38749100872583 /* Cards_War_Game.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cards_War_Game.entitlements; sourceTree = "<group>"; };
+		FA99ED722A38749100872583 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA99ED782A38749100872583 /* Cards War GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cards War GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA99ED7C2A38749100872583 /* Cards_War_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards_War_GameTests.swift; sourceTree = "<group>"; };
+		FA99ED822A38749100872583 /* Cards War GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cards War GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA99ED862A38749100872583 /* Cards_War_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards_War_GameUITests.swift; sourceTree = "<group>"; };
+		FA99ED882A38749100872583 /* Cards_War_GameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards_War_GameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA99ED972A387DCD00872583 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		FA99ED992A3880CE00872583 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		FAFF312E2A38AC22002232AB /* EnterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterViewModel.swift; sourceTree = "<group>"; };
+		FAFF31302A38B17C002232AB /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		FAFF31342A38C82D002232AB /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		FAFF31362A38C842002232AB /* GameOverViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewModel.swift; sourceTree = "<group>"; };
+		FAFF31392A38F6E8002232AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA99ED642A38749100872583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA99ED752A38749100872583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA99ED7F2A38749100872583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA99ED5E2A38749000872583 = {
+			isa = PBXGroup;
+			children = (
+				FA99ED692A38749100872583 /* Cards War Game */,
+				FA99ED7B2A38749100872583 /* Cards War GameTests */,
+				FA99ED852A38749100872583 /* Cards War GameUITests */,
+				FA99ED682A38749100872583 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA99ED682A38749100872583 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA99ED672A38749100872583 /* Cards War Game.app */,
+				FA99ED782A38749100872583 /* Cards War GameTests.xctest */,
+				FA99ED822A38749100872583 /* Cards War GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA99ED692A38749100872583 /* Cards War Game */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF31382A38F6DF002232AB /* Assets */,
+				FAFF312D2A38A6DC002232AB /* Model Views */,
+				FAFF312C2A38A6C0002232AB /* Views */,
+				FA99ED992A3880CE00872583 /* LocationManager.swift */,
+				FA99ED6A2A38749100872583 /* Cards_War_GameApp.swift */,
+				FA99ED702A38749100872583 /* Cards_War_Game.entitlements */,
+				FA99ED712A38749100872583 /* Preview Content */,
+			);
+			path = "Cards War Game";
+			sourceTree = "<group>";
+		};
+		FA99ED712A38749100872583 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA99ED722A38749100872583 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA99ED7B2A38749100872583 /* Cards War GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA99ED7C2A38749100872583 /* Cards_War_GameTests.swift */,
+			);
+			path = "Cards War GameTests";
+			sourceTree = "<group>";
+		};
+		FA99ED852A38749100872583 /* Cards War GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA99ED862A38749100872583 /* Cards_War_GameUITests.swift */,
+				FA99ED882A38749100872583 /* Cards_War_GameUITestsLaunchTests.swift */,
+			);
+			path = "Cards War GameUITests";
+			sourceTree = "<group>";
+		};
+		FAFF312C2A38A6C0002232AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA99ED6C2A38749100872583 /* EnterView.swift */,
+				FA99ED972A387DCD00872583 /* GameView.swift */,
+				FAFF31302A38B17C002232AB /* GameOverView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FAFF312D2A38A6DC002232AB /* Model Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF312E2A38AC22002232AB /* EnterViewModel.swift */,
+				FAFF31342A38C82D002232AB /* GameViewModel.swift */,
+				FAFF31362A38C842002232AB /* GameOverViewModel.swift */,
+			);
+			path = "Model Views";
+			sourceTree = "<group>";
+		};
+		FAFF31382A38F6DF002232AB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF31392A38F6E8002232AB /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA99ED662A38749100872583 /* Cards War Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA99ED8C2A38749100872583 /* Build configuration list for PBXNativeTarget "Cards War Game" */;
+			buildPhases = (
+				FA99ED632A38749100872583 /* Sources */,
+				FA99ED642A38749100872583 /* Frameworks */,
+				FA99ED652A38749100872583 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cards War Game";
+			productName = "Cards War Game";
+			productReference = FA99ED672A38749100872583 /* Cards War Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA99ED772A38749100872583 /* Cards War GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA99ED8F2A38749100872583 /* Build configuration list for PBXNativeTarget "Cards War GameTests" */;
+			buildPhases = (
+				FA99ED742A38749100872583 /* Sources */,
+				FA99ED752A38749100872583 /* Frameworks */,
+				FA99ED762A38749100872583 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA99ED7A2A38749100872583 /* PBXTargetDependency */,
+			);
+			name = "Cards War GameTests";
+			productName = "Cards War GameTests";
+			productReference = FA99ED782A38749100872583 /* Cards War GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA99ED812A38749100872583 /* Cards War GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA99ED922A38749100872583 /* Build configuration list for PBXNativeTarget "Cards War GameUITests" */;
+			buildPhases = (
+				FA99ED7E2A38749100872583 /* Sources */,
+				FA99ED7F2A38749100872583 /* Frameworks */,
+				FA99ED802A38749100872583 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA99ED842A38749100872583 /* PBXTargetDependency */,
+			);
+			name = "Cards War GameUITests";
+			productName = "Cards War GameUITests";
+			productReference = FA99ED822A38749100872583 /* Cards War GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA99ED5F2A38749000872583 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FA99ED662A38749100872583 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					FA99ED772A38749100872583 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FA99ED662A38749100872583;
+					};
+					FA99ED812A38749100872583 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FA99ED662A38749100872583;
+					};
+				};
+			};
+			buildConfigurationList = FA99ED622A38749000872583 /* Build configuration list for PBXProject "Cards War Game" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA99ED5E2A38749000872583;
+			productRefGroup = FA99ED682A38749100872583 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA99ED662A38749100872583 /* Cards War Game */,
+				FA99ED772A38749100872583 /* Cards War GameTests */,
+				FA99ED812A38749100872583 /* Cards War GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA99ED652A38749100872583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA99ED732A38749100872583 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA99ED762A38749100872583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA99ED802A38749100872583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA99ED632A38749100872583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA99ED9A2A3880CE00872583 /* LocationManager.swift in Sources */,
+				FA99ED6D2A38749100872583 /* EnterView.swift in Sources */,
+				FAFF312F2A38AC22002232AB /* EnterViewModel.swift in Sources */,
+				FA99ED982A387DCD00872583 /* GameView.swift in Sources */,
+				FAFF31372A38C842002232AB /* GameOverViewModel.swift in Sources */,
+				FAFF31312A38B17C002232AB /* GameOverView.swift in Sources */,
+				FA99ED6B2A38749100872583 /* Cards_War_GameApp.swift in Sources */,
+				FAFF31352A38C82D002232AB /* GameViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA99ED742A38749100872583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA99ED7D2A38749100872583 /* Cards_War_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA99ED7E2A38749100872583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA99ED872A38749100872583 /* Cards_War_GameUITests.swift in Sources */,
+				FA99ED892A38749100872583 /* Cards_War_GameUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA99ED7A2A38749100872583 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA99ED662A38749100872583 /* Cards War Game */;
+			targetProxy = FA99ED792A38749100872583 /* PBXContainerItemProxy */;
+		};
+		FA99ED842A38749100872583 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA99ED662A38749100872583 /* Cards War Game */;
+			targetProxy = FA99ED832A38749100872583 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA99ED8A2A38749100872583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA99ED8B2A38749100872583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FA99ED8D2A38749100872583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Cards War Game/Cards_War_Game.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cards War Game/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app requires access to the device's location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires access to the device's location";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vladi.Cards-War-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA99ED8E2A38749100872583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Cards War Game/Cards_War_Game.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cards War Game/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app requires access to the device's location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires access to the device's location";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vladi.Cards-War-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA99ED902A38749100872583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vladi.Cards-War-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cards War Game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cards War Game";
+			};
+			name = Debug;
+		};
+		FA99ED912A38749100872583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vladi.Cards-War-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cards War Game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cards War Game";
+			};
+			name = Release;
+		};
+		FA99ED932A38749100872583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vladi.Cards-War-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cards War Game";
+			};
+			name = Debug;
+		};
+		FA99ED942A38749100872583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vladi.Cards-War-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cards War Game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA99ED622A38749000872583 /* Build configuration list for PBXProject "Cards War Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA99ED8A2A38749100872583 /* Debug */,
+				FA99ED8B2A38749100872583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA99ED8C2A38749100872583 /* Build configuration list for PBXNativeTarget "Cards War Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA99ED8D2A38749100872583 /* Debug */,
+				FA99ED8E2A38749100872583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA99ED8F2A38749100872583 /* Build configuration list for PBXNativeTarget "Cards War GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA99ED902A38749100872583 /* Debug */,
+				FA99ED912A38749100872583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA99ED922A38749100872583 /* Build configuration list for PBXNativeTarget "Cards War GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA99ED932A38749100872583 /* Debug */,
+				FA99ED942A38749100872583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA99ED5F2A38749000872583 /* Project object */;
+}
